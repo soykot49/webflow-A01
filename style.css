@@ -11,6 +11,7 @@ body{
     background-position: center;
     height: 100vh;
    
+   
 }
 
 nav{
@@ -107,6 +108,8 @@ nav{
     align-items: center;
     margin-top: 50px;
     gap:150px ;
+    padding-top: 110px;
+    padding-bottom: 100px;
 }
 
 
@@ -176,7 +179,7 @@ nav{
 .reviewer{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .rev-img{
@@ -224,4 +227,77 @@ h4{
     font-size: 14px;
     font-weight: 200;
     color: silver;
+}
+
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px 0;
+}
+
+.contact-box h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+#email{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.email{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#name{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.name{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.message{
+   font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#message{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 100px;
+}
+
+.contact-btn{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 340px;
 }
