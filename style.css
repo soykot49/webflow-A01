@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background-image:url("./resources/Assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 130PX;
+    margin-right: 130PX;
+}
+
+.logo{
+    color: rgba(78, 71, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.signup-btn{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    margin: -50px 0;
+}
+
+.hero h1{
+    font-size: 65px;
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+    
+}
+
+.hero-btn{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.textbox h3{
+    font-family:"Raleway", sans-serif ;
+    font-size: 40px;
+      margin: 0;  
+    font-weight: 600;
+    padding: 20px 0;
+    
+}
+
+.textbox p{
+    font-family:"Raleway", sans-serif ;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.textbox button{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: bold;
+    margin-top: 20px;
+}
+
+.img{
+    border-radius: 48px;
+    height: 325px;
+    width: 400px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:150px ;
+}
