@@ -301,3 +301,41 @@ h4{
     font-size: 16px;
     width: 340px;
 }
+
+footer{
+    background-color:rgba(255, 255, 255, 1);
+    color: rgba(78, 71, 255, 1);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+footer h2{
+    font-size: 100px;
+    font-weight: 700px;
+}
+
+footer p{
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.footer-links a{
+    color:rgba(137, 135, 161, 1);
+    text-decoration: none;
+    padding-top: 20px;
+   
+    
+}
